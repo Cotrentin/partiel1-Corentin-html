@@ -1,10 +1,59 @@
-@media screen and (max-width: 1024px) {
-    main {
+@media screen and (max-width: 480px) {
+    header {
         flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        height: auto;
     }
 
-    main .left, main .right {
-        width: 80%;
-        margin-bottom: 20px;
+    header .logo_1 {
+        height: 50px;
+    }
+
+    header .icon i {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .hero .background {
+        height: 200px;
+    }
+
+    .hero .slogan h1 {
+        font-size: 24px;
+    }
+
+    .hero .slogan p {
+        font-size: 14px;
+    }
+
+    .choix {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .grp {
+        width: 100%;
+    }
+
+    .grp img {
+        height: 150px;
+    }
+
+    .CTA {
+        width: 100%;
+        padding: 20px;
+        background-size: cover;
+    }
+
+    .CTA button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer img {
+        width: 150px;
+        height: auto;
     }
 }
